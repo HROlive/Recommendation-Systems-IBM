@@ -12,9 +12,8 @@
 ## Description
 Recommendation systems are one of the most successful and widespread applications of machine learning technologies in business. They play an essential role in helping users find products and content they care about while delivering a lot of value to bussinesses.
 
-The developed recommendation system is able to suggest articles on the [IBM Watson studio platform](https://dataplatform.cloud.ibm.com/) to users, as depicted by the image above.
+Before making recommendations of any kind, I clean the dataset and provide some visuals and descriptive statistics to help us get a better understanding of the data we are working with. The implemented recommendation systems are able to suggest articles on the IBM Watson studio platform to users(both recurring and new), as depicted by the image above. There are different approaches to recommendation system and three of them have been implemented in this project:
 
-There are different approaches to recommendation system and three of them have been implemented in this project:
 1. Rank-based recommendation for new users
 > - recommend most popular articles
 2. User-user based collaborative filtering for existing users
